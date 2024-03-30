@@ -3732,7 +3732,7 @@ __metadata:
     "@useoptic/openapi-utilities": "workspace:*"
     ajv: "npm:^8.6.0"
     ajv-errors: "npm:~3.0.0"
-    ajv-formats: "npm:~2.1.0"
+    ajv-formats: "npm:~3.0.0"
     babel-jest: "npm:^29.3.1"
     bottleneck: "npm:^2.19.5"
     chalk: "npm:^4.1.2"
@@ -3776,7 +3776,7 @@ __metadata:
     "@useoptic/json-pointer-helpers": "workspace:*"
     ajv: "npm:^8.6.0"
     ajv-errors: "npm:~3.0.0"
-    ajv-formats: "npm:~2.1.0"
+    ajv-formats: "npm:~3.0.0"
     babel-jest: "npm:^29.3.1"
     chalk: "npm:^4.1.2"
     fast-deep-equal: "npm:^3.1.3"
@@ -3843,7 +3843,7 @@ __metadata:
     "@useoptic/rulesets-base": "workspace:*"
     "@useoptic/standard-rulesets": "workspace:*"
     ajv: "npm:^8.6.0"
-    ajv-formats: "npm:~2.1.0"
+    ajv-formats: "npm:~3.0.0"
     async-exit-hook: "npm:^2.0.1"
     axax: "npm:^0.2.2"
     babel-jest: "npm:^29.3.1"
@@ -3956,7 +3956,7 @@ __metadata:
     "@useoptic/rulesets-base": "workspace:*"
     ajv: "npm:^8.6.0"
     ajv-draft-04: "npm:^1.0.0"
-    ajv-formats: "npm:~2.1.0"
+    ajv-formats: "npm:~3.0.0"
     babel-jest: "npm:^29.3.1"
     jest: "npm:^29.3.1"
     json-stable-stringify: "npm:^1.1.0"
@@ -4102,6 +4102,20 @@ __metadata:
     ajv:
       optional: true
   checksum: 10c0/e43ba22e91b6a48d96224b83d260d3a3a561b42d391f8d3c6d2c1559f9aa5b253bfb306bc94bbeca1d967c014e15a6efe9a207309e95b3eaae07fcbcdc2af662
+  languageName: node
+  linkType: hard
+
+"ajv-formats@npm:~3.0.0":
+  version: 3.0.0
+  resolution: "ajv-formats@npm:3.0.0"
+  dependencies:
+    ajv: "npm:^8.0.0"
+  peerDependencies:
+    ajv: ^8.0.0
+  peerDependenciesMeta:
+    ajv:
+      optional: true
+  checksum: 10c0/9853ad5a53c0444043fffe06e99b641485d6214d18c4c9c79a1511cef8d61f03527da133b4143b745a92967fc6688133d90296411a61b5e26567850b79dcc3c2
   languageName: node
   linkType: hard
 
